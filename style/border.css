@@ -1,0 +1,41 @@
+.border {
+  height: 600px;
+  background-image: linear-gradient(
+    to right,
+    rgb(198, 162, 235),
+    rgb(150, 69, 231),
+    rgb(114, 73, 155)
+  );
+  top: 100px;
+
+  animation-name: border;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+@keyframes border {
+  0% {
+    opacity: 0;
+    border: 6px solid rgb(150, 68, 233);
+    border-radius: 80%;
+    position: absolute;
+    top: 100px;
+  }
+  25% {
+    opacity: 0.9;
+    border: 6px solid rgb(150, 68, 233);
+    position: absolute;
+    top: 100px;
+  }
+  50% {
+    opacity: 0.8;
+    border: 6px solid rgb(150, 68, 233);
+    position: absolute;
+    top: 100px;
+  }
+  100% {
+    border: 6px solid rgb(150, 68, 233);
+    position: absolute;
+    top: 100px;
+    border-radius: 80%;
+  }
+}

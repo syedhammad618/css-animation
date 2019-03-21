@@ -1,11 +1,11 @@
-body {
-  background-image: linear-gradient(
-    to right,
-    rgb(168, 94, 243),
-    rgb(150, 69, 231),
-    rgb(114, 73, 155)
-  );
-}
+@import "./style/heading.css";
+@import "./style/para.css";
+@import "./style/btn.css";
+@import "./style/border.css";
+@import"./style/body.css";
+
+
+
 .one {
   height: 300px;
   width: 300px;
@@ -62,72 +62,6 @@ body {
     top: 0px;
   }
 }
-.btn {
-  opacity: 1;
-  text-decoration: none;
-  position: relative;
-  left: 700px;
-  top: 100px;
-  font-size: 30px;
-  color: white;
-  background-color: rgb(146, 91, 200);
-  border: 1px solid white;
-  padding: 5px;
 
-  animation-name: button;
-  animation-delay: 0s;
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
 
-  transition-property: transform;
-  transition-duration: 2s;
-}
-.btn:hover {
-  transform: rotate(90deg);
-}
-@keyframes button {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.header {
-  font-size: 60px;
-  font-family: Helvetica;
-  color: white;
-  position: relative;
-  animation-name: heading;
-  animation-duration: 2s;
-  animation-fill-mode: both;
-}
-@keyframes heading {
-  0% {
-    top: -100px;
-    left: 900px;
-  }
-  100% {
-    top: 90px;
-    left: 490px;
-  }
-}
-.paragraph {
-  color: white;
-  font-size: 20px;
-  position: relative;
-  animation-name: para;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-@keyframes para {
-  0% {
-    left: -1000px;
-    top: 0px;
-  }
-  100% {
-    left: 60px;
-    top: 50px;
-  }
-}
+

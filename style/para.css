@@ -1,0 +1,22 @@
+.paragraph {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  animation-name: para;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+@keyframes para {
+  0% {
+    left: -1400px;
+    top: 0px;
+    margin-left: 400px;
+    margin-right:400px
+  }
+  100% {
+    left: 60px;
+    top: 50px;
+    margin-left: 400px;
+    margin-right:400px
+  }
+}

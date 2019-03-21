@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(170, 3, 134); 
+    animation-name: body;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+   animation-iteration-count: 100; 
+   }
+   @keyframes body{
+     100%{
+       background-image: linear-gradient(
+         to right,
+         rgb(245, 96, 225),
+         rgb(231, 69, 158),
+         rgb(170, 25, 163)
+       );
+     }
+   }
